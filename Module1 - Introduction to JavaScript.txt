@@ -1,0 +1,48 @@
+Module 1 - Lesson 2: What is JavaScript?
+- JavaScript is the most demanded programming language by now.
+- Why JavaScript was created? JavaScript allows us to update the content of the current web page directly within the browser without the need to do a full page refresh as we did it previously
+
+
+Module 1 - Lesson 3: JavaScript in Action
+
+
+Module 1 - Lesson 4: Development Environment
+- Visual Studio Code
+- Extensions : Live Server, Prettier
+
+
+Module 1 - Lesson 5: How JavaScript is Executed?
+
+- Where does JavaScript code run? 
+=> JavaScript is designed to run within web browser and each browser has a JavaScript Engine (V8 - Chrome, JavaScriptCore on Safari, SpiderMonkey on Mozilla, Chakra on Microsoft Edge)
+
+- JavaScript Executed Flow
+=> JavaScript Code 
+=> JavaScript Engine
+    => 1. Parsing : Parse JavaScript Code into Tokens (keywords: var, let, const, function, etc), operators, literals, identifiers, then JavaScript Engine passes these Tokens to create the Abstract Syntax Tree (AST)
+    => 2. Compilation : JavaScript Engine like V8 uses a technique called Just-In-Time(JIT) compilation and this means that it compiles our JavaScript Code into machine code
+    => 3. Execution : when we will see the effects of our code in the browser, engine start to interpret our JavaScript Code which is then executed by the JavaScript Virtual Machine (JVM) after that we will see the effect on browser
+    => 4. Garbage Collection : JavaScript Engine periodically scans and cleans up the unused variables and unreachable memory
+    => 5. Event Loop : Check the Call Stack and Message Queue for asynchronous operation that are finished and it notify call stack so that our asynchronous code can be executed
+
+- Development Mode:
+HTML/CSS/JS => VSCode => Live Server => Browser
+
+- Production 
+VSCode => Server (HTML/CSS/JS) <=> User (Browser)
+
+- V8 Engine Chrome embedded it in C++ program => NODE.JS
+
+- What can you build with JavaScript?
+    - Frontend Web Development
+    - Backend Development (with Node.js)
+    - Mobile Apps
+    - Desktop Apps
+    - Games
+
+
+
+
+
+
+
