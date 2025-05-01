@@ -1,0 +1,12 @@
+1. Variable & Constants
+2. Primitive Data Types 
+3. Operators (Arithmetic, Comparison, Logical, Assignment)
+4. Control Flow (if/else statement, switch statements)
+5. Function (declarations, expressions, arguments, return values)
+
+6. Arrays
+7. Loops
+8. Objects
+9. Reference Data Types (Objects, Arrays, Functions)
+10. this - call, apply, bind
+11. Scope (global, local, block)

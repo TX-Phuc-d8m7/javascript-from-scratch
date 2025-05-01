@@ -1,0 +1,13 @@
+- Primitive Data Types
++ String : "hello", "123"
++ Numbers : 123, 3.6
++ Booleans  : true / false
++ Undefined : khai báo biến "let a;" mà không gán giá trị thì a có giá trị Undefined
++ Null : 
+
+- Dynamic Typed
+let x = 10;
+x = "text";
+console.log(x); // text 
+
+- Non-primitive Data Types

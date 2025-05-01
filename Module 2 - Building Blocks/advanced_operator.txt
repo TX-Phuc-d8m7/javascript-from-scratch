@@ -1,0 +1,59 @@
+- Arithmetic Operators: (+, -, *, /)
+
+- Module: %
+
+- Exponention: ** (2^2 = 2*2, 2^3 = 2*2*2) <=> 2 ** 3
+
+- Increment: ++
+let x = 2;
+x = x + 1; <=> x++
+
+- Decrement: --
+
+
+// COMPARISON OPERATORS
+- Strictly Equality: === , also check for the type of variable not only the value
+2 === 2; // true
+2 === '2'; // false
+- Loose Equality: ==
+2 == '2'; // true
+- Inequality: !==
+- Greater: >
+- Less: < 
+- Greater or Equal: >=
+- Less or Equal: <=
+
+
+// ASSIGNMENT OPERATORS
+a = a + 5; <=> a += 5;
+// -=, *=, /=, %=, **=
+
+
+// LOGICAL OPERATORS
+- AND &&
+let a = 1;
+let b = 2;
+ 
+a === 1 && b === 2; // true
+a === 2 && b === 2; // false
+
+- OR ||
+
+- NOT !
+!true // false
+
+let user = Undefined
+let defaultUser = "Guest";
+let displayName
+
+if(user) {
+    didsplayName = user;
+} else {
+    displayName = defaultUser
+}
+
+<=> displayName = user || defaultUser
+
+
+// TERNARY OPERATORS
+displayName = user ? user : defaultUser
